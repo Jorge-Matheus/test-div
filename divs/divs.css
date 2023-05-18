@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    background-color: #333;
+}
+
+
+
+#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.9em;
+    border: 1px solid black;
+    color: red;
+    background-color: #333;
+}
+
+
+#burguer:hover {
+    color: goldenrod;
+}
+
+
+#itens {
+    display: none;
+    background-color: #333;
+}
+
+
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+menu a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    color: red;
+}
+
+
+menu a:hover {
+    color: goldenrod;
+}
+
+
+.background {
+    background-image: url(rush-3try.jpg);
+    height: 100vh;
+    max-width: 100vw;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+.rodape {
+    height: 74vh;
+    max-width: 100vw;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.texto {
+    margin-bottom: 160px;
+    text-align: center;
+}
