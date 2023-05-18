@@ -67,7 +67,7 @@ menu a:hover {
 
 .background {
     background-image: url(rush-3try.jpg);
-    height: 100vh;
+    height: 82vh;
     max-width: 100vw;
     background-size: auto;
     background-repeat: no-repeat;
@@ -78,7 +78,6 @@ menu a:hover {
 
 
 .rodape {
-    height: 74vh;
     max-width: 100vw;
     background-color: #333;
     display: flex;
@@ -88,6 +87,7 @@ menu a:hover {
 
 
 .texto {
+    padding: 20px;
     margin-bottom: 160px;
     text-align: center;
 }
